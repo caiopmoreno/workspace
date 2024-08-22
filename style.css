@@ -1,0 +1,89 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: #D5D5D5;
+  font-size: 14px;
+  font-family: 'Inter', 'Montserrat', sans-serif;
+}
+
+a:hover {
+  color: white;
+}
+
+body{
+  background-color: #1E1E1E;
+  overflow: hidden;
+}
+
+#dashboard{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-inline: auto;
+  margin-block: 24px;
+  width: 1184px;
+  
+}
+
+.line{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.box{
+  display: flex;
+  background-color: #2C2C2C;
+  padding: 36px;
+  gap: 36px;
+  border-radius: 8px;
+}
+
+.shortcut{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.name{
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.shortcut img{
+  width: 90px;
+  height: 90px;
+  border-radius: 12px;
+}
+
+img{
+  transition: transform 0.05s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.name img{
+  width: 8px;
+  height: auto;
+  border-radius: 0px;
+}
+
+.lofi{
+  display: flex;
+  gap: 36px;
+}
+
+.lofi img{
+  width: 191px;
+  height: 109px;
+  border-radius: 14px;
+}
+
