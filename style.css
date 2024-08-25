@@ -41,6 +41,7 @@ body{
   padding: 36px;
   gap: 36px;
   border-radius: 8px;
+  align-items: center;
 }
 
 .shortcut{
@@ -87,3 +88,7 @@ img:hover {
   border-radius: 14px;
 }
 
+.divider{
+  border-left: solid 1px #444444;
+  height: 85%;
+}
